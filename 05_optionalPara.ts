@@ -3,7 +3,7 @@ function display(id:number ,name : string, role?:string) { // using ? to check i
     console.log(`Name`,name);
     
     if(role != undefined){
-        console.log(`Country`,role);
+        console.log(`Role`,role);
     }
 }
 display(1,'Harry','Admin');
