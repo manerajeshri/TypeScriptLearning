@@ -2,10 +2,10 @@
 // alert in build
 
 
-// alert("Hello all"); 
+alert("Hello all"); 
 
 
-// confirm("Do you really want to do this??")
+confirm("Do you really want to do this??")
 
 
 // prompt("Please enter your name!")
