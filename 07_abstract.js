@@ -1,3 +1,6 @@
+// Price -- both have price but diff price .. 
+// Total seats -- both have total seats but diff seats 
+// colors-- both car are the diff colors .
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -13,6 +16,10 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+// we can solve this problem by using abstract class ..
+// 
+// we can not create a instace or object of abstract class .
+// let objCar = new Car(); // question
 var Car = /** @class */ (function () {
     function Car() {
     }
@@ -61,6 +68,6 @@ var Toyota = /** @class */ (function (_super) {
     };
     return Toyota;
 }(Car));
-var toyota = new Hundai(); // creating new object from
+var toyota = new Toyota(); // creating new object from
 console.log(hundai.CallFacility());
 console.log(hundai.Price());
