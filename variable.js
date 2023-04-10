@@ -1,3 +1,3 @@
 var x;
-x = "codemind";
+x = "codemind hello";
 console.log(x);

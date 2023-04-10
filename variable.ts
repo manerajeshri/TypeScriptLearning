@@ -1,4 +1,4 @@
 var x :string;
-x = "codemind";
+x = "codemind hello";
 
 console.log(x);
