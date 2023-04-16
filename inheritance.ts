@@ -11,7 +11,7 @@ move(distance : number){
 }
 }
 
-// Child class / Derived class / Sub class
+// Child class / Derived class / Sub class ==> Dog
 class Dog extends Animal{
     constructor(name: string){
         super(name)
