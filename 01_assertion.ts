@@ -74,6 +74,17 @@ if( typeof someValriable == 'number')
     console.log(someValriable.toFixed(2))
 }
 
+// function load(): unknown{
+//     return "  hello world  "
+// }
+// let hello = load()
+
+// // const trimmed = hello.trim() // gives error
+
+// // type assertions
+// // we are telling that we know hello is a string type
+// const trimmed = (hello as string).trim()  // after type assertions
+// console.log(`trimmed== `, trimmed)
 
 // typecasting 
 
@@ -83,23 +94,17 @@ let leet;
 
 leet = '1234556';
 
-// use as number
+const numberes = leet as number; // use as number
 
-const numberes = leet as number;
-
-console.log(numberes === 1234556);
-console.log(numberes);
+console.log(numberes === 1234556); //  false
+console.log(numberes); // "1234556" 
 
 
 // let leet;
 
-// // later 
-
+// later 
 // leet = '1234556';
-
-// // use as number
-
-// const numberes = +leet;
+// const numberes = +leet; //  use as number
 
 // console.log(numberes === 1234556);
 // console.log(numberes);

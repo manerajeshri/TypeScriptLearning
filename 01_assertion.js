@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var s1 = "you are the creater of your destiny";
 var s2 = "powerful people come from powerful places";
 var s3 = '';
@@ -43,19 +43,26 @@ someValriable = loadNumber();
 if (typeof someValriable == 'number') {
     console.log(someValriable.toFixed(2));
 }
+// function load(): unknown{
+//     return "  hello world  "
+// }
+// let hello = load()
+// // const trimmed = hello.trim() // gives error
+// // type assertions
+// // we are telling that we know hello is a string type
+// const trimmed = (hello as string).trim()  // after type assertions
+// console.log(`trimmed== `, trimmed)
 // typecasting 
 var leet;
 // later 
 leet = '1234556';
-// use as number
-var numberes = leet;
-console.log(numberes === 1234556);
-console.log(numberes);
+var numberes = leet; // use as number
+console.log(numberes === 1234556); //  false
+console.log(numberes); // "1234556" 
 // let leet;
-// // later 
+// later 
 // leet = '1234556';
-// // use as number
-// const numberes = +leet;
+// const numberes = +leet; //  use as number
 // console.log(numberes === 1234556);
 // console.log(numberes);
 var utils_1 = require("./utils");
