@@ -1,4 +1,4 @@
-function display(id:number ,name : string, role?:string) { // using ? to check if not pased 
+function display1(id:number ,name : string, role?:string) { // using ? to check if not pased 
     console.log(`ID`,id);
     console.log(`Name`,name);
     
@@ -6,5 +6,5 @@ function display(id:number ,name : string, role?:string) { // using ? to check i
         console.log(`Role`,role);
     }
 }
-display(1,'Harry','Admin');
-display(2,'Harmayani');
+display1(1,'Harry','Admin');
+display1(2,'Harmayani');

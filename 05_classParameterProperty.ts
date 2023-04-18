@@ -24,4 +24,6 @@ constructor(public  name  : string   , public age : number){
     }
     
     const jack = new Person1('Jack',34);
+    console.log(`jack`, jack);
+    
     console.log(jack.name,jack.age);

@@ -43,17 +43,49 @@
 // console.log(`your name : `,enteredName);
 // alert( "name is " + enteredName )
 
-var num1 = Number(prompt(`enter num1 `))
-var num2 = Number(prompt(`enter num2 `))
-console.log(`addition is`, num1 + num2);
-alert(num1 + num2)
+// var num1 = Number(prompt(`enter num1 `))
+// var num2 = Number(prompt(`enter num2 `))
+// console.log(`addition is`, num1 + num2);
+// alert(num1 + num2)
 
-console.log(`parseInt("32px") : `, parseInt("32px")); // 32
-console.log(`Number("32dny")`, Number("32dny")); // NaN
-
-
+// console.log(`parseInt("32px") : `, parseInt("32px")); // 32
+// console.log(`Number("32dny")`, Number("32dny")); // NaN
 
 
+// intersectiontype
+// using & operator
+// type Person22 ={
+//     name : string;
+// }
+
+// type Email22 ={
+//     email : string
+// }
+
+// type Phone22 = {
+//     phone : number;
+// }
+
+// // combining 3 together with & going multiple type together
+// type ContactDetails = & Person22 & Email22 & Phone22;
 
 
+// // function contact22(details: Person22 & Email22 & Phone22) { // using & operator
+//     function contact22(details : ContactDetails) { // using & operator
+//     console.log(`name is ${details.name} your email id is ${details.email} will call you at ${details.phone} shortly`);   
+// }
+// let informationObj : ContactDetails ={ name :"rrr", email :"emailis" , phone : 7709}
+// contact22(informationObj);
 
+
+// optional para
+// class Point {
+//     x  : number;
+//     y : string;
+//     }
+//     // creating object
+    
+//     let pointObject = new Point ()
+//     console.log(`pointObject.x ==>`,pointObject.x); // undefined
+//     pointObject.x = 11
+//     console.log(`pointObject.x ==>`,pointObject.x); // 11

@@ -13,7 +13,7 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var objPerson1 = new Person(0); // object
-console.log(`objPerson1`,objPerson1);
+console.log(objPerson1);
 var grow_Old = objPerson1.growOld; // lexical scope
 // setTimeout(objPerson1.growOld,1000);
 grow_Old();

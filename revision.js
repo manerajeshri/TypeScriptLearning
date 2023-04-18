@@ -30,9 +30,23 @@
 // var enteredName= prompt('please enter your name')
 // console.log(`your name : `,enteredName);
 // alert( "name is " + enteredName )
-var num1 = Number(prompt("enter num1 "));
-var num2 = Number(prompt("enter num2 "));
-console.log("addition is", num1 + num2);
-alert(num1 + num2);
-console.log("parseInt(\"32px\") : ", parseInt("32px"));
-console.log("Number(\"32dny\")", Number("32dny"));
+// var num1 = Number(prompt(`enter num1 `))
+// var num2 = Number(prompt(`enter num2 `))
+// console.log(`addition is`, num1 + num2);
+// alert(num1 + num2)
+// console.log(`parseInt("32px") : `, parseInt("32px")); // 32
+// console.log(`Number("32dny")`, Number("32dny")); // NaN
+// intersectiontype
+// using & operator
+// 
+// optional parameter
+var Point = /** @class */ (function () {
+    function Point() {
+    }
+    return Point;
+}());
+// creating object
+var pointObject = new Point();
+console.log("pointObject.x ==>", pointObject.x); // undefined
+pointObject.x = 11;
+console.log("pointObject.x ==>", pointObject.x); // 11

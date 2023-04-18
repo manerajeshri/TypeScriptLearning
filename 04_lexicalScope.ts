@@ -11,7 +11,6 @@ class Person{
         return this._age;
     }
 }
-
 const objPerson1 = new Person(0); // object
 console.log(objPerson1);
 const grow_Old = objPerson1.growOld; // lexical scope
