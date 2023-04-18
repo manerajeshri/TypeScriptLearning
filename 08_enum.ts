@@ -4,8 +4,8 @@ enum Gender {
     Female = 1 // 1
 }
 
-console.log(Gender.Male);
-console.log(Gender.Female);
+console.log(Gender.Male);   //0
+console.log(Gender.Female); // 1
 console.log(Gender[0]);
 console.log(Gender[1]);
 

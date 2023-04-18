@@ -1,4 +1,3 @@
-// inheritance
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -14,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+// inheritance
 //  Parent class / Base class / Super  class ==> Animal
 var Animal = /** @class */ (function () {
     function Animal(name) {
@@ -24,7 +24,7 @@ var Animal = /** @class */ (function () {
     };
     return Animal;
 }());
-// Child class / Derived class / Sub class
+// Child class / Derived class / Sub class ==> Dog
 var Dog = /** @class */ (function (_super) {
     __extends(Dog, _super);
     function Dog(name) {
@@ -35,3 +35,6 @@ var Dog = /** @class */ (function (_super) {
     };
     return Dog;
 }(Animal));
+var lucky = new Dog("Monty");
+lucky.bark(); // called from class Dog // child class
+lucky.move(7); // called from parent Animal // Parent class

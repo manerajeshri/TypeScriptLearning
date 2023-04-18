@@ -1,5 +1,4 @@
 // inheritance
-
 //  Parent class / Base class / Super  class ==> Animal
 class Animal {
     name:string;
@@ -20,3 +19,7 @@ bark(){
     console.log(`bhoo bhoo`)
 }
 }
+
+var lucky = new Dog("Monty")
+lucky.bark() // called from class Dog // child class
+lucky.move(7) // called from parent Animal // Parent class
