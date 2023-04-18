@@ -14,15 +14,15 @@ function doubleMe(x: any){
         console.log(x + " " + x); 
     } else if (Array.isArray(x))
     {
-        console.log(x); //logging array all atonce
-        return x.map(name => console.log(name) // loggingelement one by one
+        // console.log(x); //logging array all atonce
+        return x.map(name => console.log(name + name) // loggingelement one by one
         )
     }
 }
-doubleMe(2);
-doubleMe("Jack");
+// doubleMe(2);
+// doubleMe("Jack");
 doubleMe(["a","b","c"]);
-doubleMe([1,2,3,4,5,6,7]);
-doubleMe(['a']);
+// doubleMe([1,2,3,4,5,6,7]);
+// doubleMe(['a']);
 // doubleMe(['a',1]);
 
