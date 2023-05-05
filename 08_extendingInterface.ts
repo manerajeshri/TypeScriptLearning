@@ -24,6 +24,8 @@ interface ICar extends IExterior,IInterior{
 }
 
 console.log(myCar);
+console.log(`typeof myCar`, typeof myCar);
+
 
 
 //===============================  sir
